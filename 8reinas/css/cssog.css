@@ -1,0 +1,20 @@
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px; /*esta propiedad es nomas para la tabla*/
+    height: 50px; /*solo se aplica a los objetos de tipo td*/
+}
+
+tr:nth-child(even)
+td:nth-child(even),
+tr:nth-child(odd)
+td:nth-child(odd){
+    background-color: #fece9e;
+}
+
+tr:nth-child(odd)
+td:nth-child(even),
+tr:nth-child(even)
+td:nth-child(odd){
+    background-color: #d18b47;
+}
