@@ -16,7 +16,7 @@ function MostrarReina(celda) {
         }
 
     } else {
-        celda.style= background-image:none;;
+        celda.style= `background-image:none;`;
     }
 
 }
